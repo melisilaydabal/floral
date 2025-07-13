@@ -129,6 +129,3 @@ If you use this code in your research, please cite our paper:
       journal={International Conference on Learning Representations (ICLR)},
 }
 ```
-
->>>>>>> bb6cf5a10abae4bdd16469d29c69e834813561c6
-
