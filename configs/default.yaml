@@ -1,0 +1,42 @@
+# default config
+training:
+    batch_size: 32
+    num_epochs: 1
+    is_adv: True
+model:
+    name: "svm"
+    dir_dump_model: "./pretrained_models"
+    gamma:  0.5
+    C:  10
+    reg_param: 1
+    kernel: "rbf"
+    degree: 0
+optim:
+    optimizer: "SGD"
+    lr: 0.0001
+data:
+    dataset: "moon"
+    num_classes: 2
+    in_dim: 2
+    test_size: 0.6
+    val_size: 0.2
+    dir_dump_data: "./dataset"
+    is_train_adv_data: True
+    is_train_adv_alfa_data: False
+    adv_rate: 10
+    is_curie_filter: False
+    is_label_sanitize: False
+dump:
+    dir_dump: "./workbench/"
+feature_extract:
+    is_feature_extract: False
+    model_path: "./pretrained_models/model.pth"
+log:
+    is_log: True
+    logger: "wandb"
+player_flip:
+    attack_type: "randomized_sv_flip"
+    flip_budget: 25
+    flip_set_budget: 1
+game:
+    num_rounds: 501

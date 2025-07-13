@@ -1,0 +1,18 @@
+Universe        = floral
+Executable      = condor_run_experiment.sh
+Arguments       = configs/default.yaml $(SEED)
+Log             = condor_logs/exp_$(SEED).log
+Output          = condor_logs/exp_$(SEED).out
+Error           = condor_logs/exp_$(SEED).err
+
+request_cpus = 5
+request_memory = 20G
+request_gpus = 0
+
+# Setup environment if needed
+# getenv = True
+
+# Queue jobs
+Queue SEED from (
+42
+)
