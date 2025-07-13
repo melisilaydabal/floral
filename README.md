@@ -96,7 +96,7 @@ bash ./scritps/run_experiments.sh
 ```
 If one uses HT Condor cluster, submit the job with:
 ```
-condor_submit ./scripts/condor_experiment.sub```
+condor_submit ./scripts/condor_experiment.sub
 ```
 To fine-tune a RoBERTa model on the IMDB dataset, run the script:
 ```
@@ -129,6 +129,6 @@ If you use this code in your research, please cite our paper:
       journal={International Conference on Learning Representations (ICLR)},
 }
 ```
-=======
+
 >>>>>>> bb6cf5a10abae4bdd16469d29c69e834813561c6
 
