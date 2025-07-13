@@ -25,7 +25,7 @@ floral/
 ├── src/
 │   ├── core/             # Main experiment runner and dataset loaders
 │   ├── data/             # Dataset generators, loaders and preprocessing
-│   ├── models/           # Neural networks, defenses, and baselines
+│   ├── models/           # Classifier models, defenses, and baselines
 │   ├── players/          # Attackers and defenders
 │   └── utils/            # Metrics, plotting, and utilities
 ├── scripts/              # Setup and config update scripts
