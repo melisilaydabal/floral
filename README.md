@@ -28,6 +28,7 @@ floral/
 │   ├── models/           # Classifier models, defenses, and baselines
 │   ├── players/          # Attackers and defenders
 │   └── utils/            # Metrics, plotting, and utilities
+├── dataset/              # Dataset folder
 ├── scripts/              # Setup and config update scripts
 ├── configs/              # YAML configuration files
 ├── workbench/            # Experiment results storage
