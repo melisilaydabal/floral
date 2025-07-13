@@ -5,7 +5,6 @@ This repository contains the code associated with the paper:
 > Adversarial Training for Defense Against Label Poisoning Attacks
 >
 > by Melis Ilayda Bal, Volkan Cevher, and Michael Muehlebach, ICLR 2025.
-<<<<<<< HEAD
 > 
 [![arXiv](https://img.shields.io/badge/arXiv-2502.17121-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2502.17121)
 
