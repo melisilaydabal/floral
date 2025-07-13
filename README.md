@@ -30,9 +30,9 @@ floral/
 │   └── utils/            # Metrics, plotting, and utilities
 ├── scripts/              # Setup and config update scripts
 ├── configs/              # YAML configuration files
-└── workbench/            # Experiment results storage
-└── condor_logs/          # Folder for Condor job logs
-├── README.md             # Project overview and instructions          
+├── workbench/            # Experiment results storage
+├── condor_logs/          # Folder for Condor job logs
+└── README.md             # Project overview and instructions          
 ```
 
 
