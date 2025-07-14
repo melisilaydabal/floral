@@ -1,6 +1,6 @@
 #!/bin/bash
 source ~/.bashrc          # or ~/.zshrc depending on shell
-conda activate floral-venv # or any name of your conda env
+conda activate floral_venv # or any name of your conda env
 
 CONFIG_PATH=$1
 SEED=$2
