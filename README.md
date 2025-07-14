@@ -117,6 +117,10 @@ Example:
 python3 src/utils/perf_plotter_main.py -m accuracy ./workbench -d ./results
 ```
 
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
 ## Citation
 
 If you use this code in your research, please cite our paper:
