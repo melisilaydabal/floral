@@ -103,7 +103,7 @@ To fine-tune a RoBERTa model on the IMDB dataset, run the script:
 python3 ./src/models/roberta.py --label_flip_rate 0.05 \--dir_load_data ./dataset/imdb/
 ```
 which requires the preprocessed datasets (`.pt` files).
-For this, follow the instructions in `./src/models/roberta.py file.`
+For this, follow the instructions in `./src/models/roberta.py` file.
 
 
 ## 📊 Logging & Visualization
