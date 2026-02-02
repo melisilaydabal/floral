@@ -125,12 +125,15 @@ python3 src/utils/perf_plotter_main.py -m <MEASURE=accuracy,loss> <BASE_FOLDER_P
 Example:
 python3 src/utils/perf_plotter_main.py -m accuracy ./workbench -d ./results
 ```
+---
 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## Citation
+---
+
+## :open_book: Citation
 
 If you use this code in your research, please cite our paper:
 
@@ -142,4 +145,5 @@ If you use this code in your research, please cite our paper:
       journal={International Conference on Learning Representations (ICLR)},
 }
 ```
+
 
